@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Fernando Martins | Desenvolvimento Web</title>
+ <meta name="description" content="Portfólio de Fernando Martins. Sites para negócios, páginas institucionais e experiências interativas desenvolvidas com HTML, CSS e JavaScript.">
+ <meta name="theme-color" content="#101c2a">
+ <script>try{const t=localStorage.getItem("portfolio-theme");document.documentElement.dataset.theme=(t==="dark"||t==="light")?t:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");}catch{document.documentElement.dataset.theme=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}</script>
+ <meta property="og:title" content="Fernando Martins • Desenvolvimento Web"><meta property="og:description" content="Ideias que ganham forma na web. Conheça meus projetos e solicite um orçamento."><meta property="og:type" content="website">
+ <link rel="icon" href="assets/images/logosec.png" type="image/png"><link rel="stylesheet" href="css/style.css"><script defer src="js/port.js"></script>
+<noscript><style>.video-start{display:none}.menu-toggle{display:none}@media(max-width:800px){#main-nav{display:flex;position:static;flex-direction:row;flex-wrap:wrap;padding:10px 0;border:0}.header-inner{height:auto;flex-wrap:wrap;padding-block:20px}}</style></noscript>
+</head>
+<body>
+ <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+ <header class="site-header">
+  <div class="container header-inner">
+   <a class="brand" href="#inicio" aria-label="Fernando Martins, início"><img class="brand-symbol" src="assets/images/logosec.png" alt="" width="1536" height="1024"><span class="brand-name">Fernando Martins<small>DESENVOLVIMENTO WEB</small></span></a>
+   <button class="theme-toggle" type="button" aria-label="Ativar modo escuro" aria-pressed="false"><span aria-hidden="true">◐</span><span class="theme-label">Tema escuro</span></button>
+   <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
+   <nav id="main-nav" aria-label="Navegação principal"><a href="#projetos">Projetos</a><a href="#sobre">Sobre</a><a href="#processo">Como funciona</a><a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a></nav>
+  </div>
+ </header>
+ <main id="conteudo">
+  <section class="hero" id="inicio">
+   <div class="container hero-grid">
+    <div class="hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PORTFÓLIO / FERNANDO MARTINS</p>
+     <h1>Seu próximo site<br>começa com uma<br><em>boa ideia.</em></h1>
+     <p class="hero-description">Eu transformo ideias em sites com identidade, navegação clara e interações que fazem sentido para o seu projeto.</p>
+     <div class="hero-actions"><a class="button button-light" href="#projetos">Conheça meu trabalho <span aria-hidden="true">↓</span></a><a class="text-link" href="#contato">Solicitar orçamento <span aria-hidden="true">↗</span></a></div>
+     <div class="hero-footnote"><span>HTML</span><span>CSS</span><span>JavaScript</span><span class="footnote-label">Do conceito à tela.</span></div>
+    </div>
+    <a class="hero-showcase" href="#projeto-vortrya" aria-label="Conhecer o projeto Vortrya">
+     <div class="showcase-top"><span>EM DESTAQUE</span><span>01 / 03</span></div>
+     <div class="screen-frame"><div class="screen-toolbar"><span></span><span></span><span></span><p>vortrya / wiki interativa</p></div><img src="assets/images/vortrya.jpg" width="1280" height="710" alt="Prévia da wiki Vortrya com conteúdo de fantasia e navegação interativa" fetchpriority="high"></div>
+     <div class="showcase-caption"><div><strong>Um universo, muitas possibilidades.</strong><p>Vortrya — projeto autoral</p></div><span class="round-arrow" aria-hidden="true">↗</span></div>
+     <span class="showcase-edge" aria-hidden="true">DESIGN & DESENVOLVIMENTO</span>
+    </a>
+   </div>
+  </section>
+  <div class="intro-strip"><div class="container"><span>Sites feitos para ser explorados.</span><span>Identidade visual <i>•</i> Interatividade <i>•</i> Responsividade</span></div></div>
+  <section class="projects section" id="projetos">
+   <div class="container">
+    <div class="section-heading"><div><p class="eyebrow">01 / TRABALHOS SELECIONADOS</p><h2>Projetos na prática<span>.</span></h2></div><p>Três propostas diferentes.<br>Veja o visual e as interações em funcionamento.</p></div>
+    <!-- PROJETO: VORTRYA -->
+    <article class="project project-featured" id="projeto-vortrya">
+     <div class="video-shell"><video id="video-vortrya" controls playsinline preload="none" poster="assets/images/vortrya.jpg" aria-label="Demonstração da wiki Vortrya"><source src="assets/videos/vortrya.mp4" type="video/mp4">Seu navegador não reproduz este vídeo. <a href="assets/videos/vortrya.mp4">Abrir vídeo</a>.</video><button class="video-start" type="button" data-video="video-vortrya" aria-label="Reproduzir demonstração do Vortrya"><span class="play-icon" aria-hidden="true">▶</span><span>Assistir ao projeto<small>WIKI INTERATIVA</small></span></button></div>
+     <div class="project-body"><div class="project-heading"><span class="project-number">01</span><div><span class="project-type">PROJETO AUTORAL • EM DESENVOLVIMENTO</span><h3>Vortrya</h3></div><span class="project-mark" aria-hidden="true">↗</span></div><p class="project-description">Wiki interativa de um jogo autoral, reunindo história, bosses, atributos e sistemas em uma experiência com identidade própria.</p><ul class="tags" aria-label="Funcionalidades"><li>Busca e filtros</li><li>Catálogo de bosses</li><li>Simulador de crafting</li><li>Conteúdo organizado</li></ul><div class="project-bottom"><div class="price"><small>PROJETOS SEMELHANTES A PARTIR DE</small><strong>R$ 2.000</strong></div><a class="project-cta" data-budget="wiki ou catálogo interativo" href="https://wa.me/5511934096093" target="_blank" rel="noopener noreferrer">Quero um projeto assim <span aria-hidden="true">↗</span></a></div><p class="project-note">Referência de desenvolvimento. O jogo, a marca e o universo Vortrya não estão à venda.</p></div>
+    </article>
+    <div class="project-grid">
+     <!-- PROJETO: RESTAURANTE -->
+     <article class="project" id="projeto-restaurante"><div class="video-shell"><video id="video-restaurante" controls playsinline preload="none" poster="assets/images/restaurante.jpg" aria-label="Demonstração do site Prime Bistro"><source src="assets/videos/restaurante.mp4" type="video/mp4">Seu navegador não reproduz este vídeo. <a href="assets/videos/restaurante.mp4">Abrir vídeo</a>.</video><button class="video-start" type="button" data-video="video-restaurante" aria-label="Reproduzir demonstração do restaurante"><span class="play-icon" aria-hidden="true">▶</span><span>Assistir ao projeto<small>PRIME BISTRO</small></span></button></div><div class="project-body"><div class="project-heading"><span class="project-number">02</span><div><span class="project-type">SITE DEMONSTRATIVO / GASTRONOMIA</span><h3>Prime Bistro</h3></div></div><p class="project-description">Uma apresentação para restaurantes, com cardápio pesquisável, categorias de pratos, galeria e páginas de informações e contato.</p><ul class="tags" aria-label="Funcionalidades"><li>Cardápio com filtros</li><li>Busca por prato</li><li>Galeria</li></ul><div class="project-bottom"><div class="price"><small>SITES SEMELHANTES A PARTIR DE</small><strong>R$ 400</strong></div><a class="project-cta" data-budget="site para restaurante" href="https://wa.me/5511934096093" target="_blank" rel="noopener noreferrer">Pedir orçamento ↗</a></div><p class="project-note">Demonstração de interface. Formulário sem envio real.</p></div></article>
+     <!-- PROJETO: CONSTRUTORA -->
+     <article class="project" id="projeto-construtora"><div class="video-shell"><video id="video-construtora" controls playsinline preload="none" poster="assets/images/construtora.jpg" aria-label="Demonstração do site BuildCorp"><source src="assets/videos/construtora.mp4" type="video/mp4">Seu navegador não reproduz este vídeo. <a href="assets/videos/construtora.mp4">Abrir vídeo</a>.</video><button class="video-start" type="button" data-video="video-construtora" aria-label="Reproduzir demonstração da construtora"><span class="play-icon" aria-hidden="true">▶</span><span>Assistir ao projeto<small>BUILDCORP</small></span></button></div><div class="project-body"><div class="project-heading"><span class="project-number">03</span><div><span class="project-type">SITE DEMONSTRATIVO / INSTITUCIONAL</span><h3>BuildCorp</h3></div></div><p class="project-description">Site institucional para apresentar empreendimentos, explorar detalhes de projetos e conhecer ferramentas interativas de simulação.</p><ul class="tags" aria-label="Funcionalidades"><li>Detalhes de projetos</li><li>FAQ interativo</li><li>Simulador</li></ul><div class="project-bottom"><div class="price"><small>SITES SEMELHANTES A PARTIR DE</small><strong>R$ 800</strong></div><a class="project-cta" data-budget="site institucional" href="https://wa.me/5511934096093" target="_blank" rel="noopener noreferrer">Pedir orçamento ↗</a></div><p class="project-note">Simulações ilustrativas e formulário sem envio real.</p></div></article>
+    </div>
+    <p class="pricing-note">Valores iniciais para desenvolvimento sob encomenda. O orçamento varia conforme conteúdo, funcionalidades e integrações. Domínio, hospedagem e manutenção são combinados à parte.</p>
+   </div>
+  </section>
+  <section class="about section" id="sobre"><div class="container about-grid"><div><p class="eyebrow">02 / QUEM DESENVOLVE</p><h2>Prazer,<br>Fernando<span>.</span></h2><a class="text-link dark-link" href="https://github.com/Fer06-Pro" target="_blank" rel="noopener noreferrer">Meu GitHub <span aria-hidden="true">↗</span></a></div><div class="about-copy"><p class="large-copy">Gosto de construir experiências que unem <strong>aparência e funcionamento.</strong></p><p>Sou desenvolvedor web e trabalho com HTML, CSS e JavaScript. Meus projetos exploram desde sites para negócios até catálogos e interfaces interativas, como a wiki do meu universo autoral, Vortrya.</p><p>Procuro criar uma estrutura organizada, com atenção à navegação e à adaptação para diferentes telas, para que cada site possa evoluir junto com a ideia.</p><div class="skill-row"><span>HTML / estrutura</span><span>CSS / identidade</span><span>JS / interação</span></div></div></div></section>
+  <section class="process section" id="processo"><div class="container"><div class="section-heading"><div><p class="eyebrow">03 / DO PLANO AO SITE</p><h2>Como vamos trabalhar<span>.</span></h2></div><p>Um caminho claro para tirar<br>seu projeto do papel.</p></div><ol class="process-list"><li><span>01</span><h3>Entender a ideia</h3><p>Conversamos sobre o objetivo, o público e o conteúdo que seu site precisa apresentar.</p></li><li><span>02</span><h3>Definir o projeto</h3><p>Combinamos páginas, funcionalidades, prazo e orçamento antes de começar.</p></li><li><span>03</span><h3>Construir e revisar</h3><p>Desenvolvo o site e ajustamos os detalhes dentro do escopo combinado.</p></li><li><span>04</span><h3>Preparar a entrega</h3><p>Revisamos a navegação e a versão mobile, e combinamos como o site será publicado.</p></li></ol></div></section>
+  <section class="contact section" id="contato"><div class="container contact-grid"><div><p class="eyebrow">04 / VAMOS CONVERSAR</p><h2>Qual ideia você<br>quer colocar<br><em>no mundo?</em></h2><p>Me conte o tipo de site que precisa e as funcionalidades que tem em mente. A partir disso, definimos o próximo passo.</p></div><div class="contact-panel"><span class="contact-label">FALE DIRETAMENTE COMIGO</span><a class="contact-number" href="https://wa.me/5511934096093" target="_blank" rel="noopener noreferrer">(11) 93409-6093</a><p>WhatsApp • Fernando Martins</p><a class="button button-light" data-budget="novo site" href="https://wa.me/5511934096093" target="_blank" rel="noopener noreferrer">Conversar sobre meu projeto <span aria-hidden="true">↗</span></a><span class="contact-note">Sem formulário. Uma conversa para entender sua ideia.</span></div></div></section>
+ </main>
+ <footer><div class="container footer-inner"><a class="footer-brand" href="#inicio" aria-label="Fernando Developer, voltar ao início"><img src="assets/images/logo.png" alt="Fernando Developer" width="1536" height="1024" loading="lazy"></a><p>© <span id="year">2026</span> Fernando Martins. Desenvolvimento web.</p><a href="https://github.com/Fer06-Pro" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+</body>
+</html>
