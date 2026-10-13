@@ -39,3 +39,16 @@ html[data-theme="dark"] .process-list li{border-color:#3b5364}
 @media(max-width:1100px){.header-inner{gap:16px}nav{gap:16px}.theme-label{display:none}}
 @media(max-width:800px){.theme-label{display:inline}.theme-toggle{margin-left:auto}.menu-toggle{flex-shrink:0}}
 @media(max-width:400px){.theme-label{display:none}.theme-toggle{padding:10px;min-width:40px;min-height:44px;justify-content:center}.header-inner{gap:10px}.brand-name{font-size:10px}.brand-name small{font-size:7px}}
+/* ===== BOTÕES: DESTAQUE E ÁREA DE TOQUE ===== */
+.button{min-height:52px;padding:15px 24px;font-size:15px}
+.project-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 16px;font-size:14px;line-height:1.4;background:#e5f3fa;border:1px solid #bbd8e6;border-radius:6px;text-align:center;transition:background .2s,transform .2s}
+.project-cta:hover{background:#d1eafa;text-decoration:none;transform:translateY(-2px)}
+html[data-theme="dark"] .project-cta{background:#203e52;border-color:#456d85;color:#a2dcff}
+html[data-theme="dark"] .project-cta:hover{background:#2a5068}
+.project-bottom{flex-wrap:wrap;align-items:center;gap:18px}
+.video-start>span:last-child{font-size:16px}.video-start small{font-size:10px}.play-icon{width:64px;height:64px;font-size:20px}
+nav .nav-contact{min-height:44px;padding:11px 16px;font-size:13px}
+.theme-toggle{min-height:44px;padding:10px 12px}
+.text-link{min-height:44px;font-size:14px}
+.contact-panel .button{min-height:52px;font-size:14px}
+@media(max-width:560px){.project-bottom{align-items:flex-start;flex-direction:column}.project-cta{width:100%;font-size:14px}.hero-actions .button{width:100%;justify-content:space-between}.hero-actions{width:100%}.video-start>span:last-child{font-size:14px}.play-icon{width:56px;height:56px}.contact-panel .button{padding:14px 16px;font-size:14px;gap:14px}.theme-toggle{padding:10px}.text-link{font-size:14px}}
