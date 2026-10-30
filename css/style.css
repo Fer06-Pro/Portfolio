@@ -572,7 +572,6 @@ em {
   line-height: 1.6;
 }
 
-
 .pricing-note {
   font-size: 15px;
   color: var(--muted);
@@ -580,7 +579,7 @@ em {
   margin-top: 26px;
   line-height: 1.8;
 }
-  
+
 /* ===== SOBRE / PROCESSO ===== */
 .about {
   border-top: 1px solid var(--line);
@@ -1097,11 +1096,7 @@ html[data-theme="dark"] .process-list li {
   }
 }
 /* ===== BOTÕES: DESTAQUE E ÁREA DE TOQUE ===== */
-.button {
-  min-height: 52px;
-  padding: 15px 24px;
-  font-size: 15px;
-}
+
 .project-cta {
   display: inline-flex;
   align-items: center;
